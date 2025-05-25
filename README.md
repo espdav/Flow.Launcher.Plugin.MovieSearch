@@ -82,7 +82,6 @@ If you find this plugin helpful, please consider:
   Made with ❤️ by Jayesh
 </div> 
 
-git commit -m "Initial commit"
-git branch -M main
-git remote add origin https://github.com/jayeshVegd/tmdb-flow-plugin.git
-git push -u origin main
+
+
+
