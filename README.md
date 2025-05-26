@@ -1,4 +1,4 @@
-# 🎬 TMDB Movie Search for Flow Launcher
+# 🎬 Movie Search for Flow Launcher
 
 [![Flow Launcher Plugin](https://img.shields.io/badge/Flow%20Launcher-Plugin-blue)](https://github.com/Flow-Launcher/Flow.Launcher)
 [![Python Version](https://img.shields.io/badge/Python-3.6%2B-blue)](https://www.python.org)
@@ -8,7 +8,7 @@
 > 🚀 A lightning-fast movie search plugin for Flow Launcher powered by TMDB API
 
 <div align="center">
-  <img src="icon.png" alt="Plugin Icon" width="200"/>
+  <img src="image//icon.png" alt="Plugin Icon" width="200"/>
 </div>
 
 ## ✨ Features
@@ -27,15 +27,11 @@
    ```
    Windows: %APPDATA%\FlowLauncher\Plugins\TMDB Movie Search
    ```
-3. 🔧 Install the required Python package:
-   ```bash
-   pip install -r requirements.txt
-   ```
 
 ## 🎮 Usage
 
 1. 🔍 Open Flow Launcher
-2. ⌨️ Type `tmdb` followed by a space and the movie name
+2. ⌨️ Type `imdb` followed by a space and the movie name
 3. ⬆️⬇️ Use arrow keys to navigate through results
 4. ⏎ Press Enter to open the movie's IMDB page
 
@@ -43,9 +39,9 @@
 
 | Command | Description |
 |---------|-------------|
-| `tmdb inception` | 🔍 Search for "Inception" |
-| `tmdb star wars` | 🌟 Search for Star Wars movies |
-| `tmdb` | 🎬 Show popular movies |
+| `imdb inception` | 🔍 Search for "Inception" |
+| `imdb star wars` | 🌟 Search for Star Wars movies |
+| `imdb` | 🎬 Show popular movies |
 
 ## 📋 Requirements
 
