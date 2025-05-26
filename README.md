@@ -22,10 +22,10 @@
 
 ## 🛠️ Installation
 
-1. 📥 Download the latest release from the [releases page](https://github.com/jayeshvegda/tmdb-flow-plugin/releases)
+1. 📥 Download the latest release from the [releases page](https://github.com/jayeshvegda/Flow.Launcher.Plugin.MovieSearch/releases)
 2. 📦 Extract the zip file to your Flow Launcher plugins directory:
    ```
-   Windows: %APPDATA%\FlowLauncher\Plugins\TMDB Movie Search
+   Windows: %APPDATA%\FlowLauncher\Plugins\Flow.Launcher.Plugin.MovieSearch
    ```
 
 ## 🎮 Usage
