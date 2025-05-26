@@ -108,7 +108,7 @@ class TMDBMovieSearch(FlowLauncher):
                 return [{
                     "Title": "Enter a movie name",
                     "SubTitle": "Type a movie name after 'tmdb' to search",
-                    "IcoPath": "icon.png"
+                    "IcoPath": "image/icon.png"
                 }]
 
             query = query.lower()
@@ -164,7 +164,7 @@ class TMDBMovieSearch(FlowLauncher):
                         return [{
                             "Title": "Search Timeout",
                             "SubTitle": "The search took too long. Please try again.",
-                            "IcoPath": "icon.png"
+                            "IcoPath": "image/icon.png"
                         }]
                 except requests.exceptions.RequestException as e:
                     logging.error(f"Error searching TMDB: {str(e)}")
@@ -172,7 +172,7 @@ class TMDBMovieSearch(FlowLauncher):
                         return [{
                             "Title": "Network Error",
                             "SubTitle": f"Failed to connect to TMDB API: {str(e)}",
-                            "IcoPath": "icon.png"
+                            "IcoPath": "image/icon.png"
                         }]
                 except Exception as e:
                     logging.error(f"Unexpected error searching TMDB: {str(e)}")
@@ -180,14 +180,14 @@ class TMDBMovieSearch(FlowLauncher):
                         return [{
                             "Title": "Error",
                             "SubTitle": "An unexpected error occurred. Check the log file for details.",
-                            "IcoPath": "icon.png"
+                            "IcoPath": "image/icon.png"
                         }]
 
             if not items:
                 return [{
                     "Title": "No movies found",
                     "SubTitle": f"No results found for '{query}'",
-                    "IcoPath": "icon.png"
+                    "IcoPath": "image/icon.png"
                 }]
 
             return items
@@ -196,7 +196,7 @@ class TMDBMovieSearch(FlowLauncher):
             return [{
                 "Title": "Error",
                 "SubTitle": "An unexpected error occurred. Check the log file for details.",
-                "IcoPath": "icon.png"
+                "IcoPath": "image/icon.png"
             }]
 
     def _format_movie_item(self, movie: Dict) -> Dict[str, Any]:
@@ -212,7 +212,7 @@ class TMDBMovieSearch(FlowLauncher):
             if poster_path:
                 ico_path = f"{TMDB_IMAGE_BASE_URL}/{poster_path.lstrip('/')}"
             else:
-                ico_path = "icon.png"
+                ico_path = "image/icon.png"
             
             # Format the display
             year = release_date.split('-')[0] if release_date != 'N/A' else ''
@@ -233,7 +233,7 @@ class TMDBMovieSearch(FlowLauncher):
             return {
                 "Title": "Error formatting result",
                 "SubTitle": "There was an error displaying this movie",
-                "IcoPath": "icon.png"
+                "IcoPath": "image/icon.png"
             }
 
     def open_movie(self, movie_id: int) -> None:
@@ -256,6 +256,6 @@ if __name__ == "__main__":
             "result": [{
                 "Title": "Critical Error",
                 "SubTitle": "The plugin encountered a critical error. Check the log file for details.",
-                "IcoPath": "icon.png"
+                "IcoPath": "image/icon.png"
             }]
         }))

@@ -7,7 +7,7 @@
     "Version": "1.0.0",
     "Language": "python",
     "Website": "https://github.com/jayeshvegda/Flow.Launcher.Plugin.MovieSearch",
-    "IcoPath": "images\\icon.png",
+    "IcoPath": "image/icon.png",
     "ExecuteFileName": "main.py",
     "ExecutePath": "python"
 }
