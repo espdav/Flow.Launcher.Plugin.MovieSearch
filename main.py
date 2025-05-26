@@ -15,16 +15,10 @@ import logging
 from typing import List, Dict, Any
 from datetime import datetime, timedelta
 
-# Add Flow Launcher paths
-parent_folder_path = os.path.abspath(os.path.dirname(__file__))
-sys.path.append(parent_folder_path)
-sys.path.append(os.path.join(parent_folder_path, 'lib'))
-sys.path.append(os.path.join(parent_folder_path, 'plugin'))
-
 from flowlauncher import FlowLauncher
 
 # Set up logging
-log_file = os.path.join(parent_folder_path, 'tmdb_plugin.log')
+log_file = os.path.join(plugindir, 'tmdb_plugin.log')
 logging.basicConfig(
     filename=log_file,
     level=logging.INFO,
@@ -38,7 +32,7 @@ TMDB_IMAGE_BASE_URL = 'https://image.tmdb.org/t/p/w92'  # w92 is a good size for
 class TMDBMovieSearch(FlowLauncher):
     def __init__(self):
         try:
-            self.cache_file = os.path.join(parent_folder_path, 'popular_movies_cache.json')
+            self.cache_file = os.path.join(plugindir, 'popular_movies_cache.json')
             self.cache = self._load_cache()
             super().__init__()
         except Exception as e:

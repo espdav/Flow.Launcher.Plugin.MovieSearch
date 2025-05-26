@@ -1,13 +1,13 @@
 {
-    "ID": "com.jayeshvegda.moviesearch",
-    "ActionKeyword": "tmdb",
-    "Name": "TMDB Movie Search",
-    "Description": "Search movies using TMDB API. Type 'tmdb' followed by a movie name to search. Shows movie details, ratings, and opens IMDB page on selection.",
-    "Author": "Jayesh",
+    "ID": "cf00c3b8-0fbe-45c1-abbc-25dfdbf7cd92",
+    "ActionKeyword": "imdb",
+    "Name": "Movie Search",
+    "Description": "Search movies using TMDB API. Type 'tmdb' followed by a movie name to search. Shows movie details, ratings.",
+    "Author": "Jayesh Vegda",
     "Version": "1.0.0",
     "Language": "python",
-    "Website": "https://github.com/jayeshvegda/tmdb-flow-plugin",
-    "IcoPath": "icon.png",
+    "Website": "https://github.com/jayeshvegda/Flow.Launcher.Plugin.MovieSearch",
+    "IcoPath": "images\\icon.png",
     "ExecuteFileName": "main.py",
     "ExecutePath": "python"
 }

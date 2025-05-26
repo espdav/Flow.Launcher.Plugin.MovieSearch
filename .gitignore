@@ -4,7 +4,6 @@ __pycache__/
 *$py.class
 *.so
 .Python
-env/
 build/
 develop-eggs/
 dist/
@@ -15,20 +14,64 @@ lib64/
 parts/
 sdist/
 var/
+wheels/
 *.egg-info/
 .installed.cfg
 *.egg
+MANIFEST
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.python-version
 
 # Plugin specific
 popular_movies_cache.json
 tmdb_plugin.log
+release/
+*.zip
+version.json
+tmdb-flow-plugin/
 
 # IDE
-.vscode/
 .idea/
+.vscode/
 *.swp
 *.swo
+*~
+.project
+.pydevproject
+.settings/
+*.sublime-workspace
+*.sublime-project
 
 # OS
 .DS_Store
-Thumbs.db 
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Flow Launcher specific
+*.log
+*.cache
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# Testing
+.coverage
+htmlcov/
+.pytest_cache/
+.tox/
+.nox/
+coverage.xml
+*.cover
+.hypothesis/ 
