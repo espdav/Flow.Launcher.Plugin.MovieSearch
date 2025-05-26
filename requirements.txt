@@ -1,2 +1,2 @@
 requests>=2.31.0
-flowlauncher>=1.0.0 
+flowlauncher==0.2.0 
