@@ -16,7 +16,7 @@
 - 📺 **TV Series Support** – Search not only for movies but also TV series  
 - 📑 **Richer Context Menu** – Press **Shift + Enter** for detailed info  
 - 🎬 **Director Info** – Shown in context menu with quick link to IMDB full credits  
-- ✍️ **Creator Info** – TV series creators now included with direct IMDB links  
+- ✍️ **Creator Info** – TV series creators now included with quick link to IMDB full credits  
 - ⭐ **Main Cast** – Preview top cast members and jump to the full cast page  
 - 📝 **Full Description** – Access the complete overview with one click to IMDB
 
