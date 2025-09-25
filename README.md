@@ -5,7 +5,7 @@
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![TMDB API](https://img.shields.io/badge/TMDB-API-yellow)](https://www.themoviedb.org/documentation/api)
 
-> 🚀 A lightning-fast movie search plugin for Flow Launcher powered by TMDB API
+> 🚀 A lightning-fast movie and tv series search plugin for Flow Launcher powered by TMDB API
 
 <div align="center">
   <img src="image//icon.png" alt="Plugin Icon" width="200"/>
