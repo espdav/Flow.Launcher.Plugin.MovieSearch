@@ -24,7 +24,7 @@
 ---
 
 <div align="center">
-  Made with ❤️ by Jayesh
+  Made by Lunabeige
 </div> 
 
 
